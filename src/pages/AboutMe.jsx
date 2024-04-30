@@ -2,7 +2,7 @@
 export default function AboutMe() {
   return (
     <div className="container pt-4 about-me">
-
+/about-me/
     </div>
   );
 }

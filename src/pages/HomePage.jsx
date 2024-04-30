@@ -6,7 +6,7 @@ export default function HomePage() {
 
   return (
     <div className="container pt-4 home">
-     
+     /hompage/
     </div>
   );
 }
