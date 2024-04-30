@@ -1,10 +1,12 @@
-import './App.css';
-import Home from './components/Home';
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Nav from './components/Nav';
 
 function App (){
     return (
-        <div className='profile-app'>
-            <Home />
-        </div>
+        <>
+        <Nav />
+        <Outlet />
+      </>
     );
 }
