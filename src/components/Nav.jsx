@@ -10,10 +10,7 @@ console.log(currentPage);
   return (
     <Navbar
       links={[
-        <Link key={1} className={currentPage === '/' ? 'nav-link active' : 'nav-link'} to="/">
-          Home
-        </Link>,
-        <Link key={2} className={currentPage === '/about-me' ? 'nav-link active' : 'nav-link'} to="/about-me">
+         <Link key={2} className={currentPage === '/' ? 'nav-link active' : 'nav-link'} to="/">
           About Me
         </Link>,
         <Link key={3} className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'} to="/portfolio">
