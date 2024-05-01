@@ -1,13 +1,9 @@
-
-
-
-
-import image1 from '../assets/received_935984800753797.jpeg';
-import image2 from '../assets/received_935984800753797.jpeg';
-import image3 from '../assets/received_935984800753797.jpeg';
-import image4 from '../assets/received_935984800753797.jpeg';
-import image5 from '../assets/received_935984800753797.jpeg';
-import image6 from '../assets/received_935984800753797.jpeg';
+import image1 from '../assets/project1.jpg';
+import image2 from '../assets/project2.jpg';
+import image3 from '../assets/project3.jpg';
+import image4 from '../assets/project4.jpg';
+import image5 from '../assets/project5.jpg';
+import image6 from '../assets/project6.jpg';
 
 export const PortfolioData = [{
     id: 1,
@@ -15,14 +11,14 @@ export const PortfolioData = [{
     image:  image1,
     description: 'this is a decription',
     demo: 'http://google.com',
-    rego:  'https://github.com/',
+    repository:  'https://github.com/',
 },{
     id: 2,
     title: 'Project2',
     image:  image2,
     description: 'this is a decription',
     demo: 'http://google.com',
-    rego:  'https://github.com/',
+    repository:  'https://github.com/',
 },
 {
     id: 3,
@@ -30,7 +26,7 @@ export const PortfolioData = [{
     image:  image3,
     description: 'this is a decription',
     demo: 'http://google.com',
-    rego:  'https://github.com/',
+    repository:  'https://github.com/',
 },
 {
     id: 4,
@@ -38,7 +34,7 @@ export const PortfolioData = [{
     image:  image4,
     description: 'this is a decription',
     demo: 'http://google.com',
-    rego:  'https://github.com/',
+    repository:  'https://github.com/',
 },
 {
     id: 5,
@@ -46,7 +42,7 @@ export const PortfolioData = [{
     image:  image5,
     description: 'this is a decription',
     demo: 'http://google.com',
-    rego:  'https://github.com/',
+    repository:  'https://github.com/',
 },
 {
     id: 6,
@@ -54,6 +50,6 @@ export const PortfolioData = [{
     image:  image6,
     description: 'this is a decription',
     demo: 'http://google.com',
-    rego:  'https://github.com/',
+    repository:  'https://github.com/',
 },
 ];
