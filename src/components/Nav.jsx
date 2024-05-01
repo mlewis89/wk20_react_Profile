@@ -5,8 +5,6 @@ import Navbar from './UI/Navbar';
 export default function Nav() {
 
 const currentPage = useLocation().pathname;
-console.log(currentPage);
-
   return (
     <Navbar
       links={[
