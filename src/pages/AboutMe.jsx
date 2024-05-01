@@ -8,7 +8,7 @@ export default function AboutMe() {
 
       <p>
         I have an avid passion for systems that make everyday tasks easier.
-        Starting my professional career as a robotics and mechatronic engineer
+        Starting my professional career as a robotics and mechatronic engineer, followed by some time in the entertainment industry
         has given me a wide base of problem solving skills. 
         I have a passion for the outdoors and adventure and this has connected with scouting of
         which i am privelleged to lead and work alond side many amazing people
