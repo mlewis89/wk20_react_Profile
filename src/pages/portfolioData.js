@@ -4,7 +4,7 @@ import facelink_img from '../assets/facelink.png';
 import sunnySide_img from '../assets/sunnyside.jpg';
 import techBlog_img from '../assets/techblog.png';
 import weatherDash_img from '../assets/weatherdash.png';
-//import logoMaker_img from '../assets/logomaker.png';
+import logoMaker_img from '../assets/logomaker.jpg';
 import regExp_img from '../assets/regExp.jpg';
 
 export const PortfolioData = [{
@@ -41,7 +41,7 @@ export const PortfolioData = [{
 {
     id: 5,
     title: 'SVG Logo Maker',
-    image:  weatherDash_img,
+    image:  logoMaker_img,
     description: 'This application saves the user from needing a graphic design to create a simple logo.',
     repository:  'https://github.com/mlewis89/wk10_Object-oriented-Programming_SVG-Logo-Maker',
 },
