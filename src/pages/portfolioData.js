@@ -1,55 +1,54 @@
-import image1 from '../assets/project1.jpg';
-import image2 from '../assets/project2.jpg';
-import image3 from '../assets/project3.jpg';
-import image4 from '../assets/project4.jpg';
-import image5 from '../assets/project5.jpg';
-import image6 from '../assets/project6.jpg';
+import facelink_img from '../assets/facelink.png';
+import sunnySide_img from '../assets/sunnyside.jpg';
+import techBlog_img from '../assets/techblog.png';
+import weatherDash_img from '../assets/weatherdash.png';
+import logoMaker_img from '../assets/logomaker.svg';
+import regExp_img from '../assets/regExp.jpg';
 
 export const PortfolioData = [{
     id: 1,
-    title: 'Project1',
-    image:  image1,
-    description: 'this is a decription',
-    demo: 'http://google.com',
-    repository:  'https://github.com/',
+    title: 'Face Link',
+    image:  facelink_img,
+    description: 'This application aim to makes it easy for users to upload images and organise them. Future development may include facial recognition package (face-api.js) for grouping and pulling images by faces.',
+    demo: 'https://morning-harbor-41329-82d98812097e.herokuapp.com/',
+    repository:  'https://github.com/JakebJackson/Face-Link',
 },{
     id: 2,
-    title: 'Project2',
-    image:  image2,
-    description: 'this is a decription',
+    title: 'Sunny Side Holiday Planner',
+    image:  sunnySide_img,
+    description: 'Sunny Side Holiday Planner is an interactive web application designed to assist travelers in planning their holidays. It provides real-time flight information and weather forecasts, offering users a convenient way to prepare for their holidays.',
     demo: 'http://google.com',
-    repository:  'https://github.com/',
+    repository:  'https://github.com/hr-virieux/sunny-side-holiday',
 },
 {
     id: 3,
-    title: 'Project3',
-    image:  image3,
-    description: 'this is a decription',
-    demo: 'http://google.com',
-    repository:  'https://github.com/',
+    title: 'Tech Blog',
+    image:  techBlog_img,
+    description: 'This application makes use of handlebars and a restful api to serve up a full stack web application for a tech blog.',
+    demo: 'https://murmuring-wildwood-67063-687b09e4379f.herokuapp.com/',
+    repository:  'https://github.com/mlewis89/wk14_MVC_Tech-blog',
 },
 {
     id: 4,
-    title: 'Project4',
-    image:  image4,
-    description: 'this is a decription',
-    demo: 'http://google.com',
-    repository:  'https://github.com/',
+    title: 'Weather Dashboard',
+    image:  weatherDash_img,
+    description: 'enables a user to search for weather data from around the world, and dynamically displays the data',
+    demo: 'https://mlewis89.github.io/wk6-ServerAPIs-WeatherDashboard/',
+    repository:  'https://github.com/mlewis89/wk6-ServerAPIs-WeatherDashboard/',
 },
 {
     id: 5,
-    title: 'Project5',
-    image:  image5,
-    description: 'this is a decription',
-    demo: 'http://google.com',
-    repository:  'https://github.com/',
+    title: 'SVG Logo Maker',
+    image:  logoMaker_img,
+    description: 'This application saves the user from needing a graphic design to create a simple logo.',
+    repository:  'https://github.com/mlewis89/wk10_Object-oriented-Programming_SVG-Logo-Maker',
 },
 {
     id: 6,
-    title: 'Project6',
-    image:  image6,
-    description: 'this is a decription',
-    demo: 'http://google.com',
-    repository:  'https://github.com/',
+    title: 'Reg EXP Tutorial',
+    image: regExp_img,
+    description: 'a tutorial of how to use Regular expression (RegExp) to find urls within a text block.',
+    demo: 'https://gist.github.com/mlewis89/0006e4afb74f3ab61a4df192249a1c83#file-regextutorial-md',
+    repository:  'https://gist.github.com/mlewis89/0006e4afb74f3ab61a4df192249a1c83',
 },
 ];
