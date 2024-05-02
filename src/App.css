@@ -12,12 +12,16 @@
     transition: filter 300ms;
   }
   
-  
-  .card {
-    padding: 2em;
+  .card-image {
+    max-height: 200px;
   }
+
   
   .read-the-docs {
     color: #888;
   }
   
+.footer {
+  background-color: #d4d4d4;
+  padding: 5px;
+}
