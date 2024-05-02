@@ -87,7 +87,7 @@ https://github.com/mlewis89/wk20_react_Profile
 
 
 ## Netify Hosting
-***********************************
+https://verdant-sable-f6ff70.netlify.app/
 
 ## Screenshots of Completed Challenge
 ![Snapshot of the completed application](./assets/Capture1.PNG)
