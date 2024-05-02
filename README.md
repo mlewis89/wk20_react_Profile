@@ -6,11 +6,11 @@
 
 ## Description
 
-The purpose of this application is to test my knowledge of .........................................
+The purpose of this application is to test my knowledge of React. including Props, Components, Event handling, State, Input forms, conditional rendering, react-router.
 
-This application.......................
+This application is a portforlio of my acheivements as a developer so far, by building a single page website through using React
 
-In this project i learnt..........................
+In this project i learnt how to create a single page website using react and while also providing a refressher on previous topics such as css and bootstrap.
 
 ## Table of Contents
     
@@ -89,8 +89,12 @@ https://github.com/mlewis89/wk20_react_Profile
 ## Netify Hosting
 ***********************************
 
-## Screenshots / Video of Completed Challenge
-[Snapshot of the completed application](./assets/Capture.PNG)
+## Screenshots of Completed Challenge
+![Snapshot of the completed application](./assets/Capture1.PNG)
+![Snapshot of the completed application](./assets/Capture2.PNG)
+![Snapshot of the completed application](./assets/Capture3.PNG)
+![Snapshot of the completed application](./assets/Capture4.PNG)
+
 
 ## License
 This project is licensed under the MIT.
