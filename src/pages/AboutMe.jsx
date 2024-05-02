@@ -1,4 +1,4 @@
-// This is a static page mocking an "About Us" section for our fake user data
+// This is a static page  "About Me" 
 import Avatar from '../assets/received_935984800753797.jpeg'
 export default function AboutMe() {
   return (

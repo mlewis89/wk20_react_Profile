@@ -1,3 +1,5 @@
+//take in data via the prop and render it into a card.
+
 export default function PortfolioItem({
   title,
   image,

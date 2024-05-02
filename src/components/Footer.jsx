@@ -1,9 +1,10 @@
+//import images used below as string to resolved url
 import gitHubLogo from "../assets/GitHub_Logo.png";
 import linkedInLogo from "../assets/LI-Logo.png";
 import xLogo from "../assets/x-logo-black.png";
 
 export default function Footer() {
-  // The Navbar UI component will render each of the Link elements in the links prop
+  // Render the foot element
   return (
     <div className="container-fluid footer">
       <p>Conect with me via:</p>

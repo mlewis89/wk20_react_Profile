@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Navbar from './UI/Navbar';
 
 export default function Nav() {
-
+//build list of nav links and pass them to the navbar element to render
 const currentPage = useLocation().pathname;
   return (
     <Navbar

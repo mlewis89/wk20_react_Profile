@@ -1,3 +1,5 @@
+//this file proveds the information for the Portfolio page
+
 import facelink_img from '../assets/facelink.png';
 import sunnySide_img from '../assets/sunnyside.jpg';
 import techBlog_img from '../assets/techblog.png';

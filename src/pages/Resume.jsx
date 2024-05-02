@@ -1,4 +1,4 @@
-// This is a static page mocking an "About Us" section for our fake user data
+// This is a static page showing proficiencies and resume
 
 export default function Resume() {
   return (

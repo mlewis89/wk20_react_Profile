@@ -1,7 +1,8 @@
+//import required files
 import PortfolioItem from "../components/PortfolioCard";
 import {PortfolioData} from "./portfolioData.js";
 
-
+// set up the outer container for the portfolio
 export default function Portfolio() {
   return (
     <div className="portfolio  container">

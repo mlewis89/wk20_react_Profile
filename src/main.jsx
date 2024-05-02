@@ -14,7 +14,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
-// Define the accessible routes, and which components respond to which URL
+// Define the accessible routes, and linking the URLs with each components
 const router = createBrowserRouter([
     {
       path: '/',
