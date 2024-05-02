@@ -1,12 +1,27 @@
-export default function PortfolioItem({title, image, description, demo, repository}) {
-    return (
-      <li className="card" key={title}>
-        <h3 className="card-tilte">{title}</h3>
-        <img className="card-image" src={image} alt="#" />
-        <div className="card-description">{description}</div>        
-        <div className="card-demo">{demo}</div>
-        <div className="card-repo">{repository}</div>
-      </li>
-    );
-  }
-  
+export default function PortfolioItem({
+  title,
+  image,
+  description,
+  demo,
+  repository,
+}) {
+  return (
+    <div className="card" key={title} style={{width: "25rem"}} >
+        <div className="card-header">
+          <h3 className="card-title">{title}</h3>
+        </div>
+        <img className="card-image card-img-top" src={image} alt="#" />
+        <div className="card-body">
+          <p className="card-description">{description}</p>
+        </div>
+        <div className="card-footer">
+          {demo && <a href={demo} target="_blank" rel="noopener noreferrer" className="card-link">
+            Preview
+          </a>}
+          <a href={repository} target="_blank" rel="noopener noreferrer" className="card-link">
+            Github
+          </a>
+        </div>
+      </div>
+  );
+}

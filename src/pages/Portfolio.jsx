@@ -4,11 +4,11 @@ import {PortfolioData} from "./portfolioData.js";
 
 export default function Portfolio() {
   return (
-    <div className="container pt-4 portfolio">
+    <div className="portfolio  container">
 <h2>Projects</h2>
-            <ul className="flex-container">
+            <div className="card-deck row">
                 {PortfolioData.map((card) => <PortfolioItem key={card.id} {...card}  />)}
-            </ul>
+            </div>
     </div>
   );
 }
