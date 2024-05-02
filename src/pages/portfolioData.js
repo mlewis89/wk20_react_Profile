@@ -4,7 +4,7 @@ import facelink_img from '../assets/facelink.png';
 import sunnySide_img from '../assets/sunnyside.jpg';
 import techBlog_img from '../assets/techblog.png';
 import weatherDash_img from '../assets/weatherdash.png';
-import logoMaker_img from '../assets/logomaker.jpg';
+import logoMaker_img from '../assets/sunnyside.jpg';
 import regExp_img from '../assets/regExp.jpg';
 
 export const PortfolioData = [{
